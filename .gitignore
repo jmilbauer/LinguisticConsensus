@@ -127,3 +127,19 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+########### BEGIN-PROJECT-SPECIFIC ###########
+
+# generated data and logs
+output/experiments/**
+output/analysis/**
+output/batch_logs/**
+data/generated/**
+data/downloads/**
+
+# jupyter notebooks
+src/*.ipynb
+
+
+
+########### END-PROJECT-SPECIFIC #############

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sbatch /projects/tir6/strubell/jmilbaue/LinguisticConsensus/src/batch_scripts/train.sbatch "the_donald_2016" "the_donald_2016_10M";
+sbatch /projects/tir6/strubell/jmilbaue/LinguisticConsensus/src/batch_scripts/train.sbatch "politics_2016" "politics_2016_10M";
+sbatch /projects/tir6/strubell/jmilbaue/LinguisticConsensus/src/batch_scripts/train.sbatch "sandersforpresident_2016" "sandersforpresident_2016_10M";
+sbatch /projects/tir6/strubell/jmilbaue/LinguisticConsensus/src/batch_scripts/train.sbatch "conservative_2016" "conservative_2016_10M";
