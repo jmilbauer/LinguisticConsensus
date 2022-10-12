@@ -136,10 +136,9 @@ output/analysis/**
 output/batch_logs/**
 data/generated/**
 data/downloads/**
+!*.keep
 
 # jupyter notebooks
 src/*.ipynb
-
-
 
 ########### END-PROJECT-SPECIFIC #############
